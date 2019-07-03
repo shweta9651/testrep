@@ -2,8 +2,6 @@ general: null
 steps:
     mtaBuild:
         buildTarget: CF
-        mtaJarLocation: '/opt/sap/mta.jar'
-        dockerImage: ppiper/mta-archive-builder
     cloudFoundryDeploy:
         deployTool: mtaDeployPlugin
         deployType: standard
