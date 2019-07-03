@@ -1,7 +1,8 @@
-general: null
 steps:
     mtaBuild:
         buildTarget: CF
+        mtaJarLocation: 'mta.jar'
+        dockerImage: 'ppiper/mta-archive-builder'        
     cloudFoundryDeploy:
         deployTool: mtaDeployPlugin
         deployType: standard
