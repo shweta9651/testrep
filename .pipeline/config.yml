@@ -2,7 +2,7 @@ steps:
     mtaBuild:
         buildTarget: CF
         mtaJarLocation: '/var/jenkins_home/mta.jar'
-        dockerImage: 'ppiper/mta-archive-builder'        
+        dockerImage: 'sonatype/nexus3'        
     cloudFoundryDeploy:
         deployTool: mtaDeployPlugin
         deployType: standard
