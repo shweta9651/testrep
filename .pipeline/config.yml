@@ -1,7 +1,7 @@
 steps:
     mtaBuild:
         buildTarget: CF
-        mtaJarLocation: '/opt/sap/mta/lib/mta_archive_builder-1.1.19.jar'
+        mtaJarLocation: '/var/jenkins_home/mta.jar'
         dockerImage: 'sonatype/nexus3'
     cloudFoundryDeploy:
         deployTool: mtaDeployPlugin
