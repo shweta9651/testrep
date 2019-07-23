@@ -1,6 +1,6 @@
 @Library('piper-lib-os') _
 node() {
-    tools {nodejs "node"}
+    tool {nodejs "node"}
     stage('prepare') {
         checkout scm
         setupCommonPipelineEnvironment script:this
