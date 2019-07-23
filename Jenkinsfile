@@ -1,5 +1,6 @@
 @Library('piper-lib-os') _
 node() {
+    sh 'npm install'
     sh 'npm --version'
     stage('prepare') {
         checkout scm
