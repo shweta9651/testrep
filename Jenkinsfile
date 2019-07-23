@@ -1,6 +1,5 @@
 @Library('piper-lib-os') _
 node() {
-    agent any
     tools {nodejs "node"}
     stage('prepare') {
         checkout scm
